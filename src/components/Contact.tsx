@@ -6,8 +6,8 @@ const Contact = () => {
     {
       icon: <Phone className="w-6 h-6" />,
       label: 'WhatsApp',
-      value: '+91 9877731378',
-      link: 'https://wa.me/919877731378',
+      value: '+91 7973854503',
+      link: 'https://wa.me/917973854503',
       primary: true
     },
     {
@@ -19,7 +19,8 @@ const Contact = () => {
     {
       icon: <MapPin className="w-6 h-6" />,
       label: 'Location',
-      value: 'Mansa, Punjab India'
+      value: 'Mansa, Punjab India',
+      link : 'https://maps.app.goo.gl/vXBhqhjgwd6uyHfa7'
     }
   ];
 
@@ -27,7 +28,7 @@ const Contact = () => {
     {
       icon: <Instagram className="w-6 h-6" />,
       label: 'Instagram',
-      url: 'https://www.instagram.com/teamfire_eagles/',
+      url: 'https://www.instagram.com/gursewaksran0064/',
       color: 'hover:text-pink-600'
     },
     {
@@ -92,7 +93,7 @@ const Contact = () => {
                   Connect with us on WhatsApp for instant support and guidance.
                 </p>
                 <a
-                  href="https://wa.me/919877731378"
+                  href="https://wa.me/917973854503"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center bg-white text-emerald-600 px-6 py-3 rounded-xl font-semibold hover:bg-gray-100 transition-all duration-200 hover:scale-105 shadow-lg"
