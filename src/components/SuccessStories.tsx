@@ -1,4 +1,3 @@
-import React from 'react';
 import { Play, ExternalLink, Star } from 'lucide-react';
 
 const SuccessStories = () => {

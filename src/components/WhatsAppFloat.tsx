@@ -1,4 +1,3 @@
-import React from 'react';
 import { MessageCircle } from 'lucide-react';
 
 const WhatsAppFloat = () => {
@@ -16,4 +15,3 @@ const WhatsAppFloat = () => {
 };
 
 export default WhatsAppFloat;
-

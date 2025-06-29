@@ -1,4 +1,3 @@
-import React from 'react';
 import { TrendingUp, MessageCircle, BookOpen, Award } from 'lucide-react';
 
 const WhyChooseUs = () => {

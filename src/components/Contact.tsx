@@ -1,4 +1,3 @@
-import React from 'react';
 import { Phone, Mail, MapPin, MessageCircle, Instagram, Facebook, Youtube } from 'lucide-react';
 
 const Contact = () => {

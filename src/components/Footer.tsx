@@ -1,4 +1,3 @@
-import React from 'react';
 import { Leaf, Flame } from 'lucide-react';
 
 const Footer = () => {
