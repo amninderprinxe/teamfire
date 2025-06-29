@@ -8,6 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+    "homepage": "https://amninderprinxe.github.io/teamfire",
   },
   "dependencies": {
     "lucide-react": "^0.344.0",
