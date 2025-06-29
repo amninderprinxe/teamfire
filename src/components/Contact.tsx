@@ -19,7 +19,7 @@ const Contact = () => {
     {
       icon: <MapPin className="w-6 h-6" />,
       label: 'Location',
-      value: 'Mansa, Punjab India',
+      value: 'FIRST FLOOR , OVER KRISHNA COLLECTION , NEAR BLACK BIRD INSTITITE ,RAM BAAG ROAD , MANSA, Punjab India',
       link : 'https://maps.app.goo.gl/vXBhqhjgwd6uyHfa7'
     }
   ];
