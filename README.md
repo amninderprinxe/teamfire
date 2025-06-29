@@ -1,10 +1,5 @@
 # Team Fire Eagles 64 - Forever Living Products
 
-![Team Fire Eagles 64](https://img.shields.io/badge/Team-Fire%20Eagles%2064-emerald?style=for-the-badge)
-![Forever Living](https://img.shields.io/badge/Forever%20Living-Products-green?style=for-the-badge)
-![React](https://img.shields.io/badge/React-18.2.0-blue?style=for-the-badge&logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-Latest-blue?style=for-the-badge&logo=typescript)
-
 ## 🌟 About
 
 **Team Fire Eagles 64** is a dedicated team of Forever Business Owners helping individuals lead healthier lives and build flexible income opportunities with world-class Aloe Vera-based products. We are committed to empowering lives through natural health solutions and business opportunities in Punjab, India.
