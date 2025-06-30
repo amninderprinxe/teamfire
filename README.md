@@ -85,7 +85,7 @@ teamfire/
 ## 📊 Success Metrics
 
 - **Million+** Team Members
-- **50+** Success Stories
+- **10000+** Success Stories
 - **100%** Natural Products
 - **Multiple** Award Winners
 
