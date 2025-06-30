@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+permissions:  # ✅ Grants write access for pushing to gh-pages
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
