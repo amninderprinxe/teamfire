@@ -1,7 +1,6 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
-    directory: "teamfire/package.json"
-
+    directory: "C:\Users\DELL\OneDrive\ドキュメント\GitHub\teamfire\package.json"
     schedule:
       interval: "daily"
