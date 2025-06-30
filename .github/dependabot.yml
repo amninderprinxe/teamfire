@@ -1,0 +1,7 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/home/runner/work/teamfire/teamfire/package.json"
+
+    schedule:
+      interval: "daily"
