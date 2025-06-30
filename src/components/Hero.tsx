@@ -24,7 +24,7 @@ const Hero = () => {
             </div>
             <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow">
               <Trophy className="w-12 h-12 text-emerald-600 mx-auto mb-4" />
-              <h3 className="text-2xl font-bold text-gray-900 mb-2">50+</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">Million+</h3>
               <p className="text-gray-600">Success Stories</p>
             </div>
             <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow">
