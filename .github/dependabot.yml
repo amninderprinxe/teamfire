@@ -1,6 +1,6 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
-    directory: "/home/project/package.json"
+    directory: "https://github.com/amninderprinxe/teamfire/blob/main/package.json"
     schedule:
       interval: "daily"
