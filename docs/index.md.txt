@@ -1,0 +1,29 @@
+---
+layout: default
+title: Home
+---
+
+# Project Documentation
+
+Welcome to the documentation for your project.
+
+## Getting Started
+
+This documentation is built with Jekyll and hosted on GitHub Pages.
+
+## Features
+
+- Feature 1
+- Feature 2
+- Feature 3
+
+## Installation
+
+```bash
+npm install
+npm run dev
+```
+
+## Usage
+
+Instructions for using your project go here.

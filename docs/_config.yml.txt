@@ -1,0 +1,27 @@
+title: Your Project Documentation
+description: Documentation for your project
+theme: jekyll-theme-primer
+baseurl: ""
+url: ""
+
+plugins:
+  - jekyll-github-metadata
+  - jekyll-seo-tag
+  - jekyll-coffeescript
+  - jekyll-commonmark-ghpages
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+
+markdown: kramdown
+highlighter: rouge
+
+exclude:
+  - node_modules
+  - package.json
+  - package-lock.json
+  - .gitignore
