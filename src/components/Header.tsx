@@ -1,4 +1,3 @@
-import React from 'react';
 import { Flame, Leaf } from 'lucide-react';
 
 const Header = () => {

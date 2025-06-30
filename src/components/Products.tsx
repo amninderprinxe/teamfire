@@ -1,4 +1,3 @@
-import React from 'react';
 import { ExternalLink, Leaf, Heart, Brain, Smile, Zap } from 'lucide-react';
 
 const Products = () => {

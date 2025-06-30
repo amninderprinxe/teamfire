@@ -1,0 +1,146 @@
+import React, { useState, useEffect, useRef } from 'react';
+import { Volume2, VolumeX } from 'lucide-react';
+
+interface VideoModalProps {
+  isOpen: boolean;
+  onClose: () => void;
+}
+
+const VideoModal: React.FC<VideoModalProps> = ({ isOpen, onClose }) => {
+  const [isMuted, setIsMuted] = useState(true);
+  const [timeLeft, setTimeLeft] = useState(15);
+  const [canSkip, setCanSkip] = useState(false);
+  const videoRef = useRef<HTMLIFrameElement>(null);
+
+  useEffect(() => {
+    if (isOpen) {
+      // Start countdown timer
+      const timer = setInterval(() => {
+        setTimeLeft((prev) => {
+          if (prev <= 1) {
+            setCanSkip(true);
+            clearInterval(timer);
+            return 0;
+          }
+          return prev - 1;
+        });
+      }, 1000);
+
+      return () => clearInterval(timer);
+    }
+  }, [isOpen]);
+
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, [isOpen]);
+
+  if (!isOpen) return null;
+
+  const handleSkip = () => {
+    if (canSkip) {
+      onClose();
+    }
+  };
+
+  return (
+    <div className="fixed inset-0 z-[9999] bg-black bg-opacity-95 flex items-center justify-center p-4">
+      <div className="relative w-full max-w-4xl mx-auto">
+        {/* Video Container */}
+        <div className="relative bg-black rounded-2xl overflow-hidden shadow-2xl">
+          <div className="aspect-video">
+            <iframe
+              ref={videoRef}
+              src={`https://www.youtube.com/embed/J07mEBp6f9c?autoplay=1&mute=${isMuted ? 1 : 0}&controls=0&showinfo=0&rel=0&modestbranding=1&fs=0&disablekb=1`}
+              title="Team Fire Eagles 64 Success Story"
+              className="w-full h-full"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+
+          {/* Video Controls Overlay */}
+          <div className="absolute top-4 right-4 flex items-center space-x-3">
+            {/* Mute/Unmute Button */}
+            <button
+              onClick={() => setIsMuted(!isMuted)}
+              className="bg-black bg-opacity-50 text-white p-3 rounded-full hover:bg-opacity-70 transition-all duration-200 hover:scale-110"
+              aria-label={isMuted ? 'Unmute video' : 'Mute video'}
+            >
+              {isMuted ? <VolumeX className="w-5 h-5" /> : <Volume2 className="w-5 h-5" />}
+            </button>
+          </div>
+
+          {/* Skip Button */}
+          <div className="absolute bottom-4 right-4">
+            {!canSkip ? (
+              <div className="bg-black bg-opacity-70 text-white px-4 py-2 rounded-full text-sm font-medium">
+                Skip in {timeLeft}s
+              </div>
+            ) : (
+              <button
+                onClick={handleSkip}
+                className="bg-emerald-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-emerald-700 transition-all duration-200 hover:scale-105 shadow-lg"
+              >
+                Continue to Site
+              </button>
+            )}
+          </div>
+
+          {/* Video Title Overlay */}
+          <div className="absolute bottom-4 left-4 max-w-md">
+            <h3 className="text-white text-xl font-bold mb-2 drop-shadow-lg">
+              🔥 How Team Fire Changed Lives at Young Age
+            </h3>
+            <p className="text-gray-200 text-sm drop-shadow-lg">
+              Watch the inspiring journey of success with Forever Living Products
+            </p>
+          </div>
+        </div>
+
+        {/* Progress Bar */}
+        <div className="mt-4 bg-gray-800 rounded-full h-2 overflow-hidden">
+          <div 
+            className="bg-gradient-to-r from-emerald-500 to-green-500 h-full transition-all duration-1000 ease-linear"
+            style={{ width: `${((15 - timeLeft) / 15) * 100}%` }}
+          />
+        </div>
+
+        {/* Call to Action */}
+        <div className="mt-6 text-center">
+          <p className="text-white text-lg mb-4">
+            Ready to start your own success story?
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="https://wa.me/917973854503"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-green-600 text-white px-8 py-3 rounded-xl font-semibold hover:bg-green-700 transition-all duration-200 hover:scale-105 shadow-lg"
+            >
+              💬 Chat on WhatsApp
+            </a>
+            <a
+              href="https://docs.google.com/forms/d/1kjGJdQtLMaWWsy0EXhlWZJx2vI0U9NE5hjJ9QTv9PoA/edit"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-emerald-600 text-white px-8 py-3 rounded-xl font-semibold hover:bg-emerald-700 transition-all duration-200 hover:scale-105 shadow-lg"
+            >
+              🚀 Join Our Team
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default VideoModal;

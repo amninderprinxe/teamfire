@@ -1,4 +1,3 @@
-import React from 'react';
 import { CheckCircle, ExternalLink, Smartphone, Users, DollarSign, Clock } from 'lucide-react';
 
 const JoinTeam = () => {
