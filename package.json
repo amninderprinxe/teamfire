@@ -2,8 +2,8 @@
 <<<<<<< HEAD
   "name": "vite-react-typescript-starter",
 =======
-  "name": "teamfire",
-  "version": "0.1.0",
+    "name": "teamfire",
+  "version": "1.0.0",
 >>>>>>> e2f645815cfcda9c233f5946f3b5355df15fd7dc
   "private": true,
   "type": "module",
