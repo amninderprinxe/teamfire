@@ -19,7 +19,7 @@ const Hero = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow">
               <Users className="w-12 h-12 text-emerald-600 mx-auto mb-4" />
-              <h3 className="text-2xl font-bold text-gray-900 mb-2">500+</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">Million+</h3>
               <p className="text-gray-600">Team Members</p>
             </div>
             <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow">
