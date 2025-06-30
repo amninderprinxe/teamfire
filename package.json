@@ -1,10 +1,6 @@
 {
-<<<<<<< HEAD
-  "name": "vite-react-typescript-starter",
-=======
-    "name": "teamfire",
+  "name": "teamfire",
   "version": "1.0.0",
->>>>>>> e2f645815cfcda9c233f5946f3b5355df15fd7dc
   "private": true,
   "type": "module",
   "homepage": "https://amninderprinxe.github.io/teamfire",
@@ -13,17 +9,12 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-}
-
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
-<<<<<<< HEAD
     "gh-pages": "^6.3.0",
-    "lucide-react": "^0.344.0",
-=======
->>>>>>> e2f645815cfcda9c233f5946f3b5355df15fd7dc
+    "lucide-react": "^0.454.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
@@ -39,7 +30,6 @@
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.14",
     "globals": "^15.11.0",
-    "lucide-react": "^0.454.0",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.14",
     "typescript": "~5.6.2",
