@@ -39,7 +39,7 @@ const Contact = () => {
     {
       icon: <Youtube className="w-6 h-6" />,
       label: 'YouTube',
-      url: 'https://www.youtube.com/@TeamFire64622',
+      url: 'https://www.youtube.com/@FOREVERLIVINGKNOWLEDGE',
       color: 'hover:text-red-600'
     }
   ];
