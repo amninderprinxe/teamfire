@@ -16,7 +16,7 @@ Visit our website: [Team Fire Eagles 64](https://amninderprinxe.github.io/teamfi
 
 ## 📱 Quick Contact
 
-- **WhatsApp**: [+91 7973854503](https://wa.me/917973854503)
+- **WhatsApp**: [+91 9877731378](https://wa.me/919877731378)
 - **Email**: teamfire4364@gmail.com
 - **Location**: Mansa, Punjab, India
 
@@ -116,18 +116,18 @@ Ready to start your journey? We offer:
 - 💰 Weekly earnings potential
 - ⏰ Flexible schedule
 
-[Apply Now - It's Free!](https://docs.google.com/forms/d/1kjGJdQtLMaWWsy0EXhlWZJx2vI0U9NE5hjJ9QTv9PoA/edit)
+[Apply Now - It's Free!](https://docs.google.com/forms/d/1kjGJdQtLMaWWsy0EXhlWZJx2vI0U9NE5hjJ9QTv9PoA/viewform?edit_requested=true)
 
 ## 📞 Contact & Support
 
 ### Primary Contact
-- **WhatsApp**: [+91 7973854503](https://wa.me/917973854503)
+- **WhatsApp**: [+91 9877731378](https://wa.me/919877731378)
 - **Email**: teamfire4364@gmail.com
 
 ### Social Media
-- **Instagram**: [@gursewaksran0064](https://www.instagram.com/gursewaksran0064/)
-- **YouTube**: [Team Fire 64622](https://www.youtube.com/@TeamFire64622)
-- **Facebook**: [Team Fire Eagles 64](https://www.facebook.com/)
+- **Instagram**: [@_.amninder._.prinxe._](https://www.instagram.com/_.amninder._.prinxe._/)
+- **YouTube**: [Foreverknowledge](https://www.youtube.com/@FOREVERLIVINGKNOWLEDGE))
+- **Facebook**: [AmninderPrinxe](https://www.facebook.com/profile.php?id=61577237771644))
 
 ### Office Location
 ```
