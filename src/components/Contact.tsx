@@ -5,8 +5,8 @@ const Contact = () => {
     {
       icon: <Phone className="w-6 h-6" />,
       label: 'WhatsApp',
-      value: '+91 7973854503',
-      link: 'https://wa.me/917973854503',
+      value: '+91 9877731378',
+      link: 'https://wa.me/919877731378',
       primary: true
     },
     {
@@ -27,13 +27,13 @@ const Contact = () => {
     {
       icon: <Instagram className="w-6 h-6" />,
       label: 'Instagram',
-      url: 'https://www.instagram.com/gursewaksran0064/',
+      url: 'https://www.instagram.com/_amninder._.prinxe._/',
       color: 'hover:text-pink-600'
     },
     {
       icon: <Facebook className="w-6 h-6" />,
       label: 'Facebook',
-      url: 'https://www.facebook.com/',
+      url: 'https://www.facebook.com/profile.php?id=61577237771644',
       color: 'hover:text-blue-600'
     },
     {
@@ -92,7 +92,7 @@ const Contact = () => {
                   Connect with us on WhatsApp for instant support and guidance.
                 </p>
                 <a
-                  href="https://wa.me/917973854503"
+                  href="https://wa.me/919877731378"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center bg-white text-emerald-600 px-6 py-3 rounded-xl font-semibold hover:bg-gray-100 transition-all duration-200 hover:scale-105 shadow-lg"
