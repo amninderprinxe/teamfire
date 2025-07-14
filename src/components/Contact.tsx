@@ -27,7 +27,7 @@ const Contact = () => {
     {
       icon: <Instagram className="w-6 h-6" />,
       label: 'Instagram',
-      url: 'https://www.instagram.com/_amninder._.prinxe._/',
+      url: 'https://www.instagram.com/_.amninder._.prinxe._/',
       color: 'hover:text-pink-600'
     },
     {
