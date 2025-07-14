@@ -77,7 +77,7 @@ const JoinTeam = () => {
                 Join thousands of successful team members who have already started their journey to financial freedom.
               </p>
               <a
-                href="https://docs.google.com/forms/d/1kjGJdQtLMaWWsy0EXhlWZJx2vI0U9NE5hjJ9QTv9PoA/edit"
+                href="https://forms.gle/d92T9D9XRvX9ZBdy9"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center bg-white text-emerald-600 px-10 py-4 rounded-xl font-bold text-lg hover:bg-gray-100 transition-all duration-200 hover:scale-105 shadow-xl"
