@@ -31,11 +31,11 @@ const Products = () => {
       benefits: ['Natural Energy', 'Antioxidants', 'Pure Honey']
     },
     {
-      name: 'Forever ARGI+',
-      description: 'Convenient power pack of nutrition and performance',
+      name: 'FOREVER ULTRA LITE VANILLA',
+      description: 'Forever Lite Ultra® Vanilla is the perfect addition to your weight management and exercise routine.',
       icon: <Heart className="w-8 h-8" />,
-      link: 'https://www.aloestoreindia.in/product-single/FOREVER_ARGI%2B',
-      benefits: ['Performance', 'Nutrition', 'Cardiovascular']
+      link: 'https://www.aloestoreindia.in/product-single/FOREVER_ULTRA_LITE_VANILLA',
+      benefits: ['Weight Management', 'Nutrition', 'Cardiovascular']
     }
   ];
 
