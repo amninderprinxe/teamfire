@@ -5,8 +5,8 @@ const Contact = () => {
     {
       icon: <Phone className="w-6 h-6" />,
       label: 'WhatsApp',
-      value: '+91 7973854503',
-      link: 'https://wa.me/917973854503',
+      value: '+91 9877731378',
+      link: 'https://wa.me/919877731378',
       primary: true
     },
     {
@@ -27,7 +27,7 @@ const Contact = () => {
     {
       icon: <Instagram className="w-6 h-6" />,
       label: 'Instagram',
-      url: 'https://www.instagram.com/gursewaksran0064/',
+      url: 'https://www.instagram.com/_.amninder._.prinxe._/',
       color: 'hover:text-pink-600'
     },
     {
