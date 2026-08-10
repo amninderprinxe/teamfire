@@ -1,4 +1,4 @@
-# Team Fire Eagles 64 - Forever Living Products
+# Team Fire 64 - Forever Living Products
 
 ## 🌟 About
 
